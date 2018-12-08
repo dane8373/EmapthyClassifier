@@ -1,0 +1,15 @@
+To run my models
+
+If you wish to only test my models, simply run test.py with the model and data files I
+ submitted in the same directory as test.py. Otherwise here are the step by step instructions
+to run my programs
+
+1) Download the raw Kaggle data and save it as "responses.csv"
+2) Run train.py, this will preprocess the data and train the models
+NOTE: This will save over any other models you have run from previous runs
+3) This will output two models, and processes test data + labels and output them to files
+4) run test.py (required the files from step 3) build by train.py) and it will print the results of running the models on the test data
+
+As my submission, I sumbitted my two finished models along with the test data and labels associated with them. If you run train.py, you will overwrite these model and data files.
+If you find that my submitted models are giving different results than what I describe in the
+writeup, this is why. Please ensure this does not happen.
